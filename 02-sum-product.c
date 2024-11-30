@@ -9,10 +9,8 @@ void sumAndProduct(int number){
         product = product * digit;
         number = number / 10;
     }
-
    printf("Total sum is: %d\n", sum);
     printf("Total product is: %d\n", product);
-
     //number = 123
     //digit = 3
     //sum = 3 , product = 3
@@ -30,3 +28,5 @@ int main(){
     sumAndProduct(number);
     return 0;
 }
+
+
